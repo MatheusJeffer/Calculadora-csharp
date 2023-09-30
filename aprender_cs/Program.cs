@@ -81,15 +81,11 @@ class Program
                         Console.WriteLine("ERROR: Número muito grande.");
                     }
                 }
-
-                //Vai quebrar o programa quando o usuario digitar 0.
-                if (userInput == "0")
+            }
+            if (userInput == "0")
                 {
                     break;
                 }
-
-            }
-
         }
     }
 }

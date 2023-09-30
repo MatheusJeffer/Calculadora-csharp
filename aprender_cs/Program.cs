@@ -21,7 +21,7 @@ class Program
             Console.Write("Digite: ");
             string userInput = Console.ReadLine();
             
-            //O loop irá acontecer enquanto o usuario digitar algo que não está na lista.
+            //O loop vai acontecer enquanto o usuario digitar algo que não está na lista.
             while (!mathOperations.Contains(userInput))
             {
                 Console.WriteLine("ERROR: Operação inexistente, digite novamente.");
@@ -33,7 +33,7 @@ class Program
 
             if (userInput != "0")
             {
-                //Um loop que executa o Try, e ele só irá ser quebrado se o usuario digitar um valor inteiro.
+                //Um loop que executa o Try, e ele só vai ser quebrado se o usuario digitar um valor inteiro.
                 while (true)
                 {
 
@@ -82,7 +82,7 @@ class Program
                     }
                 }
 
-                //Irá quebrar o programa quando o usuario digitar 0.
+                //Vai quebrar o programa quando o usuario digitar 0.
                 if (userInput == "0")
                 {
                     break;
@@ -93,3 +93,4 @@ class Program
         }
     }
 }
+
